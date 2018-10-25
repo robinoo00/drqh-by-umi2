@@ -1,0 +1,48 @@
+@import "../../../config";
+.item{
+    width: 90%;
+    background-color: @sectionColor;
+    margin: 10px auto;
+    height: 65px;
+    box-shadow: 0 0 10px 0 #414141;
+}
+.img-wrap{
+    text-align: center;
+}
+.img-wrap img{
+    border-radius: 50%;
+    width: .4rem;
+    height: .4rem;
+}
+.info{
+    position: relative;
+    flex: 1.8 !important;
+    line-height: 20px;
+}
+.info:after{
+    content:'';
+    position: absolute;
+    right: 0;
+    top: -50%;
+    width: 1px;
+    background-color: #fff;
+    height: 200%;
+    transform: scale(0.5);
+}
+.num{
+    color: #ddd;
+}
+.action{
+    line-height: 26px;
+    text-align: center;
+}
+.earn{
+    color: #00a970;
+}
+
+.edit{
+    border:1px solid #108ee9;
+    color: #108ee9;
+    padding: .01rem .15rem;
+}
+

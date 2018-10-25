@@ -1,0 +1,70 @@
+.mod-prompt{
+    font-size: .12rem;
+    color: #999;
+    width: 2.1rem;
+    margin: 0 auto;
+    padding-bottom: .2rem;
+    padding-top: .5rem;
+}
+.mod-prompt p{
+    line-height: 18px;
+    text-align: center;
+}
+.fr{
+    float: right;
+}
+.txt-blue{
+    color: #5B78C0;
+}
+.txt-center{
+    text-align: center;
+    margin-bottom: .1rem;
+}
+
+.page-pay-union .mod-wrap > ul > li {
+    background: #262834;
+    margin: .1rem .15rem;
+    border-radius: .05rem
+}
+
+.page-pay-union .mod-wrap > ul > li > div {
+    padding: .15rem 0 .15rem .15rem
+}
+
+.page-pay-union .mod-wrap > ul > li > div > img {
+    display: block;
+    margin-top: .15rem
+}
+
+.page-pay-union .mod-wrap > ul > li > div > h3 {
+    font-size: .26rem
+}
+
+.page-pay-union .mod-wrap > ul > li > div > p {
+    color: #999
+}
+
+.page-pay-union .mod-wrap .tips {
+    padding: .15rem .15rem 0;
+    color: #B2B2B8
+}
+
+.page-pay-union .mod-wrap .tips > p {
+    margin-top: .1rem
+}
+.clearfix {
+    zoom: 1
+}
+.clearfix:after {
+    content: "";
+    display: block;
+    clear: both;
+    height: 0;
+    visibility: hidden;
+}
+.fr{
+    float: right;
+}
+.fl{
+    float: left;
+}

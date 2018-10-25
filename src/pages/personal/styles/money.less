@@ -1,0 +1,60 @@
+@import "../../../config";
+
+.money-wrap{
+    position: relative;
+    display: flex;
+    width: 90%;
+    margin: .25rem auto 0;
+    box-shadow: 0 0 15px 0 rgba(1,45,103,.09);
+    border-radius: 4px;
+    background-color: @sectionColor;
+}
+.money-wrap:after{
+    content:'';
+    display: block;
+    clear:both;
+}
+.bg1{
+    position: absolute;
+    left: -.2rem;
+    top: -.1rem;
+    width: .45rem;
+}
+.bg2{
+    position: absolute;
+    right: .1rem;
+    top: -.17rem;
+    width: .62rem;
+}
+.last{
+    float: left;
+    padding: .14rem 0;
+    z-index: 99;
+    width: 65%;
+    text-indent: .2rem;
+    font-size: 14px;
+    color: @fontColor;
+    background-color: @sectionColor;
+}
+.extra{
+    position: absolute;
+    right: 0;
+    float: right;
+    padding: .14rem 0;
+    z-index: 99;
+    width: 35%;
+    text-align: center;
+    background-color: @sectionColor;
+}
+.topup,.get{
+    color: #c8c8c8;
+    font-size: 14px;
+    letter-spacing: 0;
+    margin: 0;
+    display: inline-block;
+    width: 50%;
+    text-align: center;
+}
+.topup{
+    border-right: 1px solid #e5e5e5;
+}

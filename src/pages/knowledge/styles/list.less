@@ -1,0 +1,50 @@
+.dataList li{
+    width: 100%;
+    position: relative;
+}
+.ourlist li:before {
+    content: "";
+    position: absolute;
+    width: 200%;
+    bottom: 0;
+    border-bottom: 1px solid #e2e5e8;
+    -webkit-transform-origin: 0 0;
+    -ms-transform-origin: 0 0;
+    transform-origin: 0 0;
+    -webkit-transform: scale(.5);
+    -ms-transform: scale(.5);
+    transform: scale(.5);
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+.showmain{
+    padding: .19rem 0;
+    position: relative;
+    width: 90%;
+    margin: 0 auto;
+}
+.backimg{
+    height: 1.2rem;
+    width: 100%;
+}
+.mtitle{
+    position: absolute;
+    bottom: .2rem;
+    left: 0;
+    margin: 0 auto;
+    padding: 0 .19rem;
+    width: 100%;
+    background-image: -webkit-gradient(linear,left top,left bottom,color-stop(2%,rgba(0,0,0,.42)),to(#000));
+    background-image: -o-linear-gradient(top,rgba(0,0,0,.42) 2%,#000 100%);
+    background-image: linear-gradient(-180deg,rgba(0,0,0,.42) 2%,#000);
+    border-radius: 0 0 4px 4px;
+    height: .3rem;
+    line-height: .3rem;
+    font-size: 15px;
+    color: #fff;
+    letter-spacing: 0;
+    text-align: left;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
+}

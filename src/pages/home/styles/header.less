@@ -1,0 +1,53 @@
+@import "../../../config";
+
+.user-info{
+    padding: .1rem .13rem .15rem;
+    overflow: hidden;
+    position: relative;
+    align-items: center;
+    background-color: @sectionColor;
+    line-height: 23px;
+}
+//.user-info:after{
+//    content:'';
+//    display: block;
+//    clear: both;
+//}
+.user-info:after{
+    //content:'\e61f';
+    font-family: iconfont;
+    color: @fontColor;
+    font-size: .1rem;
+    margin-left: .06rem;
+}
+.hastip{
+    width: .25rem;
+    height: .25rem;
+    border-radius: 50%;
+    display: inline-block;
+    float: left;
+    border: 1px solid #fb1;
+}
+.status,.login-in{
+    display: inline-block;
+    float: left;
+    font-size: .17rem;
+    color: #333;
+    letter-spacing: -.41px;
+    margin-left: .05rem;
+    color: @fontColor;
+}
+.arrow-down{
+    width: 10px;
+    height: 6px;
+    margin-left: .04rem;
+}
+.login-in{
+    font-size: .14rem;
+}
+.topup{
+    float: right;
+    position: absolute;
+    right: 15px;
+    color: @fontColor;
+}

@@ -1,0 +1,28 @@
+@import "../../../config";
+
+.wrap{
+    border-radius: 8px;
+    line-height: 45px;
+    width: 95%;
+    margin: 10px auto;
+    overflow: hidden;
+    white-space: nowrap;
+    background: linear-gradient(90deg, @down 50%, @up 50%);
+}
+.wrap div{
+    //padding: 0 13px;
+    text-align: center;
+    margin-left: 0 !important;
+}
+.buy{
+    background-color: @down;
+}
+.ping{
+    flex:1.6;
+    border-radius: 40px;
+    background-color: #fff;
+    color:#000;
+}
+.sell{
+    background-color: @up;
+}

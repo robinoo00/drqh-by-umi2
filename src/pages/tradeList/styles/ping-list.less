@@ -1,0 +1,98 @@
+@import "../../../config";
+
+.wrap{
+    padding-top: .01rem;
+}
+.item{
+    background-color: @sectionColor;
+    padding: .07rem .1rem;
+    margin-top: .05rem;
+}
+.line1{
+    line-height: 40px;
+}
+.line1:after{
+    content:'';
+    clear: both;
+    display: block;
+}
+.info{
+    color: @fontColor;
+    float: left;
+}
+.info-item{
+    line-height: 16px;
+}
+.time{
+    color: #ddd;
+    font-size: .09rem;
+}
+.name{
+    font-weight: bold;
+    font-size: .17rem;
+}
+.money{
+    margin-left: .05rem;
+    font-size: .13rem;
+}
+.up,.down{
+    width: .2rem;
+    height: .2rem;
+    line-height: .2rem;
+    border-radius: 50%;
+    margin: .06rem;
+    text-align: center;
+    display: inline-block;
+}
+.up{
+    background-color: @up2;
+}
+.down{
+    background-color: @down2;
+}
+.action{
+    float: right;
+    line-height: 32px;
+}
+.up-num{
+    color: @up2;
+}
+.down-num{
+    color: @down2;
+}
+.action span:nth-of-type(2){
+    border-radius: 20px;
+    border:1px solid #efb231;
+    color: #efb231;
+    padding: .03rem .15rem;
+    margin-left: .1rem;
+}
+
+.price{
+    padding: .06rem 0;
+}
+.price-item{
+    position: relative;
+    color: @fontColor;
+    margin-left: 0 !important;
+}
+.price div:not(:last-of-type):after{
+    content: '';
+    position: absolute;
+    right: 0;
+    height: 200%;
+    width: 1px;
+    top: -50%;
+    -webkit-transform: scale(0.5);
+    transform: scale(0.5);
+    background-color: @fontColor;
+}
+.price-item p{
+    text-align: center;
+    height: 25px;
+}
+.price-item p:nth-of-type(2){
+    color: #b4b4b4;
+    line-height: .23rem;
+    font-size: .12rem;
+}

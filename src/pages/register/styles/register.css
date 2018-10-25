@@ -1,0 +1,39 @@
+.mod-form-wrap {
+    padding-left: .15rem;
+    background: #262834;
+}
+.mod-form {
+    position: relative;
+    line-height: .32rem;
+    background: #262834;
+    padding: .05rem 0;
+    border-bottom: none;
+    background: #262834;
+}
+.mod-form label {
+    display: inline-block;
+    color: #FFF;
+    font-size: .16rem;
+}
+.mod-form .tip-r {
+    position: absolute;
+    top: .05rem;
+    bottom: .05rem;
+    right: 0;
+    line-height: .32rem;
+    padding: 0 .15rem;
+    color: #5B78C0;
+    border-left: .01rem solid #ECECEC;
+}
+.inp {
+    border: none;
+    line-height: .3rem;
+    padding: .01rem .1rem;
+    font-size: .14rem;
+    background: #262834;
+    color: #FFF;
+}
+.txt-grey {
+    color: #999;
+    padding: .2rem 0 0 .2rem;
+}

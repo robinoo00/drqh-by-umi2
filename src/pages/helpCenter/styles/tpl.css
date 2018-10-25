@@ -1,0 +1,33 @@
+.wrap{
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    height: .51rem;
+    width: 100%;
+    background: #262834;
+    padding: 0 .15rem;
+    border-top: .01rem solid #222227;
+}
+.wrap a{
+    display: block;
+    line-height: .5rem;
+    width: 100%;
+    color: #5B78C0;
+    text-align: center;
+    font-size: .18rem;
+}
+.con_wrap{
+    padding: .1rem .15rem;
+}
+.con{
+    font-weight: 400;
+    font-size: .13rem;
+    line-height: .16rem;
+    text-align: justify;
+    color: #fff;
+}
+.time{
+    color: #999 ;
+    padding-top: .1rem;
+    font-size: .1rem;
+}

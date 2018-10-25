@@ -1,0 +1,81 @@
+@import "../../../config";
+
+.leader-wrap{
+    margin-top: .05rem;
+    background-color: @sectionColor;
+}
+.list{
+    width: 100%;
+    overflow-x: scroll;
+}
+.list ul{
+    padding-left: .14rem;
+}
+.list li{
+    display: inline-block;
+    width: 1.2rem;
+    position: relative;
+    white-space: nowrap;
+    margin-right: .14rem;
+    shadow: 0 2px 4px 0 #ededed;
+    background: #f5f5f5;
+    border-radius: 10px;
+    padding-bottom: .1rem;
+}
+.last-li{
+    background: #fb1 !important;
+    border: 1px solid #fb1;
+    border-radius: 10px;
+    height: .55rem;
+    float: right;
+}
+.last-li img{
+    width: .9rem;
+    margin: .1rem auto;
+    display: block;
+}
+.ear-img{
+    text-align: center;
+    padding: .12rem .1rem .1rem;
+    position: relative;
+}
+.ear-huangguan{
+    width: .24rem;
+    height: .13rem;
+    position: absolute;
+    left: .16rem;
+    top: .03rem;
+    z-index: 5;
+}
+.ear-Portrait{
+    width: .35rem;
+    height: .35rem;
+    border-radius: 50%;
+    margin: 0 auto;
+    float: left;
+    position: relative;
+    z-index: 10;
+    border: 2px solid #fb1;
+}
+.earnings-list-p{
+    font-size: .12rem;
+    color: #333;
+    height: .2rem;
+    line-height: .2rem;
+}
+.earnings-list-p span{
+    display: block;
+    text-align: left;
+    text-indent: .05rem;
+}
+.earnings-list-p span:first-child {
+    font-size: 17px;
+    color: #333;
+    letter-spacing: -.41px;
+    line-height: .16rem;
+}
+.earnings-list-p span:nth-child(2) {
+    font-size: 11px;
+    color: #666;
+    letter-spacing: -.27px;
+}

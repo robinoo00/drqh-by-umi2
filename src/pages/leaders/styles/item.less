@@ -1,0 +1,90 @@
+@import "../../../config";
+.earnings-list-wrap{
+    display: inline-block;
+    width: 100%;
+    position: relative;
+    height: .66rem;
+    background-color: @sectionColor;
+    padding-bottom: .1rem;
+}
+.portrait-wrap{
+    //width: .46rem;
+    width: 15%;
+    height: .4rem;
+    position: absolute;
+    left: .04rem;
+    top: .14rem;
+    text-align: center;
+    float: left;
+}
+.portrait{
+    border-radius: 50%;
+    width: .3rem;
+    height: .3rem;
+}
+.portrait-wrap p{
+    font-size: .12rem;
+    color: #333;
+    position: absolute;
+    bottom: -.06rem;
+    overflow: hidden;
+    -o-text-overflow: ellipsis;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    //width: .5rem;
+    width: 100%;
+    color: @fontColor;
+}
+.earnings-list-con{
+    margin-left: 16%;
+    overflow: auto;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    min-width: 150px;
+    width: 84%;
+    border-bottom: 1px solid #eae9e9;
+    float: left;
+    height: .64rem;
+}
+.earnings-list-con li{
+    height: .5rem;
+    float: left;
+    margin-top: .18rem;
+    overflow: hidden;
+    -o-text-overflow: ellipsis;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    min-width: 60px;
+    -webkit-box-flex: 1;
+    -ms-flex: 1;
+    flex: 1;
+    text-align: center;
+}
+.earnings-num{
+    height: .24rem;
+    line-height: .24rem;
+    color: #00cf8c;
+    font-size: .14rem;
+    overflow: hidden;
+    -o-text-overflow: ellipsis;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    text-align: center;
+}
+.earnings-list-txt{
+    color: #999;
+    font-size: .11rem;
+    text-align: center;
+}
+.follow-btn{
+    display: inline-block;
+    width: 80%;
+    height: .2rem;
+    line-height: .2rem;
+    color: #0086ff;
+    border: 1px solid #0086ff;
+    text-align: center;
+    border-radius: .2rem;
+    margin-top: .1rem;
+}

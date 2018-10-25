@@ -1,0 +1,153 @@
+@import "antdReset";
+
+@font-face {
+    font-family: 'iconfont';  /* project id 692838 */
+    src: url('//at.alicdn.com/t/font_692838_6b81u2mviuj.eot');
+    src: url('//at.alicdn.com/t/font_692838_6b81u2mviuj.eot?#iefix') format('embedded-opentype'),
+    url('//at.alicdn.com/t/font_692838_6b81u2mviuj.woff') format('woff'),
+    url('//at.alicdn.com/t/font_692838_6b81u2mviuj.ttf') format('truetype'),
+    url('//at.alicdn.com/t/font_692838_6b81u2mviuj.svg#iconfont') format('svg');
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+*, :after, :before {
+    box-sizing: border-box;
+}
+img{
+    /*width: 100%;*/
+    pointer-events: auto;
+}
+html, body, :global(#root) {
+    height: 100%;
+    background-color: #20212b;
+}
+a,html{
+    color: #fff;
+}
+html {
+    font-size: 625%;
+}
+
+body {
+    font-family: Microsoft YaHei, Arial, Verdana, Sans-serif;
+    font-size: .14rem;
+}
+
+dd, dl, legend, ol, td, th, ul, ul > li {
+    list-style: none;
+}
+
+em, i {
+    font-style: normal;
+}
+
+.trade-list-tabs{
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 100;
+}
+
+.up-color{
+    color:#E34C4D;
+}
+.down-color{
+    color:#01B28E;
+}
+
+.page-main {
+    padding: 0 0 .5rem;
+}
+/*tpl DIY component start*/
+.window_toast{
+    background-color: rgba(0, 0, 0, 0.24);
+    padding: 6px 11px;
+    display: none;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    color: #fff;
+    font-size: 14px;
+    position: fixed;
+    z-index: 1002;
+    border-radius: 8px;
+    text-align: center;
+}
+.window_mask{
+    display: none;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(255,255,255,0);
+    z-index: 101;
+}
+.window_loading{
+    animation: spin 1600ms infinite linear;
+}
+@keyframes spin {
+    0%   { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+}
+/*tpl DIY component end*/
+
+
+.page {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    display: block;
+    z-index: 1;
+}
+
+.page-enter {
+    z-index: 1024;
+    opacity: 0.2;
+}
+
+.page-enter.page-enter-active {
+    animation: page-enter-animate 0.2s ease;
+}
+
+@keyframes page-enter-animate {
+    0% {
+        opacity: 0.2;
+    }
+    25% {
+        opacity: 0.5;
+    }
+    50% {
+        opacity: 0.75;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+.page-leave {
+    opacity: 0;
+}
+
+.page-leave.page-leave-active {
+}
+
+@keyframes page-leave-animate {
+    0% {
+        opacity: 0.75;
+    }
+    25% {
+        opacity: 0.5;
+    }
+    50% {
+        opacity: 0.25;
+    }
+    100% {
+        opacity: 0;
+    }
+}

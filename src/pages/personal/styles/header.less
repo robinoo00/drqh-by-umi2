@@ -1,0 +1,69 @@
+@import "../../../config";
+
+.header{
+    overflow: hidden;
+    width: 90%;
+    margin: 0 auto;
+    padding-top: .25rem;
+}
+.img{
+    float: right;
+}
+.img img{
+    width: .45rem;
+    height: .45rem;
+    border-radius: 50%;
+}
+.info{
+    float: left;
+}
+.p{
+    font-size: .22rem;
+    color: #333;
+    line-height: .29rem;
+    overflow: hidden;
+}
+.text{
+    float: left;
+    color: @fontColor;
+}
+.login-btn-wrap{
+    margin-top: 0.05rem;
+}
+.login-btn{
+    width: .54rem;
+    height: .2rem;
+    line-height: .2rem;
+    text-align: center;
+    border-radius: 10px;
+    border: 1px solid #2187f7;
+    color: #2187f7;
+    font-size: .12rem;
+}
+.switch-wrap{
+    //display: flex;
+    //display: -webkit-box;
+    //display: -ms-flexbox;
+    //align-items: center;
+    line-height: 25px;
+}
+.account-type{
+    float: left;
+    color: @fontColor;
+}
+.switch-btn{
+    float: left;
+    margin-left: 3px;
+    border-radius: 20px;
+    padding: 0 .1rem;
+    background: linear-gradient(to right, #ffdd1b, #fec011); ;
+}
+.switch-btn:before{
+    content:'\e681';
+    font-family: iconfont;
+    margin-right: 1px;
+}
+.switch-btn:after{
+    content:'\e61a';
+    font-family: iconfont;
+}

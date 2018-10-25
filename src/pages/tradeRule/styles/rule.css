@@ -1,0 +1,38 @@
+.header-up:after{
+    content:'\e6aa';
+    font-family: iconfont;
+}
+.header-down:after{
+    content:'\e6b0';
+    font-family: iconfont;
+}
+.mod-trade-rule{
+    background: #262834;
+}
+.wrap{
+    padding: 0 .15rem .15rem .15rem;
+}
+.pt10 {
+    padding-top: .1rem;
+}
+.pt20 {
+    padding-top: .2rem;
+}
+.mod-trade-rule td {
+    padding: .05rem;
+    border: 1px solid #666;
+    color: #CCC;
+    text-align: center;
+}
+.mod-trade-rule p {
+    color: #999;
+    padding-top: .05rem;
+}
+.mod-trade-rule h3{
+    line-height: .3rem;
+    border-left: .04rem solid #5B78C0;
+    padding-left: .1rem;
+    background: #20212b;
+    font-size: .14rem;
+    margin-bottom: .05rem;
+}

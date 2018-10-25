@@ -1,0 +1,18 @@
+.mod-help-detail {
+    padding: 0 .15rem
+}
+
+.mod-help-detail h3 {
+    line-height: .44rem;
+    font-size: .16rem;
+    border-bottom: .01rem solid #ECECEC
+}
+
+.mod-help-detail .content {
+    color: #999;
+    padding: .08rem 0
+}
+
+.mod-help-detail .content p {
+    padding: .05rem 0
+}

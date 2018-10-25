@@ -1,0 +1,70 @@
+@import "../../../config";
+.agreement{
+    color: @blue;
+}
+.tip{
+    background-color: #f5f5f5;
+    color: #272727;
+    line-height: 25px;
+}
+.tip:before{
+    content:'\e680';
+    font-family: iconfont;
+    color: #d15553;
+    margin: 0 3px 0 13px;
+}
+.action{
+    background-color: @sectionColor;
+    padding: 15px;
+}
+.action a{
+    color: @fontColor;
+}
+.line{
+    margin-bottom: 5px;
+}
+.line:after{
+    content:'';
+    display: block;
+    clear: both;
+}
+.left{
+    //float: left;
+    line-height: 48px;
+    min-width: 60px !important;
+    flex: 0 !important;
+}
+.right{
+    display: block;
+    //float: left;
+}
+.btn1{
+    padding: 8px 5px;
+    width: 100px;
+    background-color: #f7b80f;
+    text-align: center;
+}
+.btn2{
+    padding: 8px 5px;
+    width: 100px;
+    background-color: #909090;
+    color: #fff;
+    text-align: center;
+}
+.choose-item:nth-of-type(1){
+}
+.choose-item,.choose-item-active{
+    border:1px solid #ddd;
+    padding: 3px 8px;
+}
+.choose-item-active{
+    background-color: #f7b80f;
+    border: 1px solid #f7b80f;
+}
+.text{
+    color: #b4b4b4;
+}
+.submit{
+    margin-top: 25px;
+    background: linear-gradient(left, #f7b80f, #ff8611);
+}

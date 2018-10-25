@@ -1,0 +1,53 @@
+.page-header {
+    height: .51rem;
+    background-color: #20212b;
+}
+
+.page-header .header-wrap {
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+    background: #262834;
+    z-index: 100;
+}
+
+.page-header h3 {
+    height: .5rem;
+    line-height: .5rem;
+    text-align: center;
+    font-size: .16rem;
+    color: #FFF;
+    font-weight: 400;
+}
+
+.page-header .nav-left, .page-header .nav-right {
+    position: absolute;
+    height: .5rem;
+    line-height: .5rem;
+    top: 0;
+    padding: 0 .15rem;
+    color: #FFF;
+}
+
+.page-header .nav-left {
+    left: 0;
+}
+
+.page-header .nav-right {
+    right: 0;
+}
+.page-header .nav-right a{
+    display: flex;
+    align-items: center;
+    height: 100%;
+}
+
+.icon-back {
+    background: url(./icon-arrow-l.png) center no-repeat;
+    background-size: .2rem;
+    display: inline-block;
+    width: .2rem;
+    height: .2rem;
+    vertical-align: middle;
+}

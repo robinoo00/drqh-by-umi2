@@ -1,0 +1,10 @@
+.txt-grey {
+    color: #999 !important;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: .1rem 0;
+}
+.txt-grey input{
+    margin-right: .03rem;
+}

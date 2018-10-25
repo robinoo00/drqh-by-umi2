@@ -1,0 +1,44 @@
+.fund-dialog {
+    position: fixed;
+    top: .51rem;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: 100;
+    background: rgba(0,0,0,.3);
+}
+.fund-dialog ul {
+    display: table;
+    width: 100%;
+    padding: .2rem .15rem .2rem 0;
+    background: #262834;
+}
+.fund-dialog li {
+    display: table-cell;
+    padding-left: .15rem;
+}
+.choose{
+    background: #5B78C0;
+    color: #FFF;
+}
+.fund-dialog li span {
+    display: block;
+    line-height: .3rem;
+    text-align: center;
+    font-size: .16rem;
+    border-radius: .05rem;
+}
+.switch-tip-down{
+    position: relative;
+}
+.switch-tip-down:after{
+    content:'\e7ff';
+    font-family: iconfont;
+    position: absolute;
+}
+.switch-tip-up:after{
+    content:'\e74c';
+    font-family: iconfont;
+    top: .05rem;
+    position: absolute;
+}

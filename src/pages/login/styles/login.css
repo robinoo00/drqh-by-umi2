@@ -1,0 +1,105 @@
+.mod-login {
+    /*padding: 0 0 .3rem*/
+    padding: 0;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background-color: #000;
+    background-image: url("../images/bg.jpg");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    padding-top: 100px;
+}
+
+.mod-login .back {
+    position: absolute;
+    top: .15rem;
+    left: .15rem
+}
+
+.mod-login .logo {
+    padding-top: .2rem
+}
+
+.mod-login .logo .logo-img {
+    width: 2rem;
+    /*width: 1.1rem;*/
+    /*height: 1.1rem;*/
+    display: block;
+    /*border-radius: 100%;*/
+    margin: 0 auto
+}
+
+.mod-login .forms {
+    margin: .6rem .375rem .3rem
+}
+
+.mod-login .action {
+    margin: .3rem .375rem
+}
+
+.mod-login .links > a {
+    color: #07e;
+    vertical-align: middle
+}
+
+.mod-login .links {
+    margin-top: 0.15rem;
+}
+
+.mod-form {
+    position: relative;
+    padding: .05rem 0 .05rem .15rem;
+    line-height: .32rem;
+}
+.label-wrap{
+    flex: 0 !important;
+    min-width: 25px !important;
+    box-flex: 0 !important;
+    -webkit-box-flex: 0 !important;
+    -moz-box-flex: 0 !important;
+    -ms-box-flex: 0 !important;
+}
+.mod-form label {
+    display: inline-block;
+    color: #FFF;
+    font-size: .16rem;
+    white-space: nowrap;
+}
+
+.inp {
+    border: none;
+    line-height: .3rem;
+    padding: .01rem .1rem;
+    margin-left: .08rem;
+    font-size: .14rem;
+    background: #262834;
+    color: #FFF;
+    -webkit-appearance: none;
+    flex: 1;
+    width: 100%;
+}
+/* 记住&忘记密码 */
+.mod-login .option {
+    overflow: hidden;
+    width: 100%;
+    margin-top: 0.05rem;
+    line-height: 0.2rem;
+    display: flex;
+    align-items: center;
+}
+
+.mod-login .option .checkbox {
+    float: left;
+    width: 0.15rem;
+    height: 0.15rem;
+    margin-left: 0.12rem;
+}
+
+.mod-login .option .remember_pw {
+    float: left;
+    color: #fff;
+    margin-left: 0.06rem;
+}

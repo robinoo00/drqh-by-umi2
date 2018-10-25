@@ -1,0 +1,16 @@
+.wrap-footer {
+    height: .44rem;
+    margin-top: .1rem;
+}
+
+.wrap-footer a {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    line-height: .44rem;
+    color: #fff;
+    border-top: .01rem solid #222227;
+    background: #262834;
+    text-align: center
+}

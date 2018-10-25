@@ -1,0 +1,96 @@
+@import "../../../config";
+
+.market-wrap {
+    margin-top: .1rem;
+    background-color: @sectionColor;
+}
+
+.td {
+    display: flex;
+    border-bottom: 1px solid #ddd;
+    padding: .1rem;
+}
+
+.td div {
+    color: #9c9c9c;
+}
+
+.td div:nth-of-type(1) {
+    width: 36%;
+    flex: 1.6 !important;
+}
+
+.td div:nth-of-type(2) {
+    text-align: center;
+    width: 38%;
+}
+
+.td div:nth-of-type(3) {
+    width: 26%;
+    text-align: center;
+}
+
+.list {
+    padding: .1rem;
+}
+
+.item {
+    display: flex;
+    align-items: center;
+    margin-bottom: .04rem;
+}
+.info,.money,.show{
+    margin-left: 0 !important;
+}
+.info {
+    width: 36%;
+    flex: 1.6 !important;
+}
+.name{
+    color: @fontColor;
+}
+.name:after {
+    content: '\e600';
+    font-family: iconfont;
+    color: #f24947;
+    margin-left: .01rem;
+    font-size: .17rem;
+}
+
+.name span:nth-of-type(1) {
+    font-weight: bold;
+    font-size: .16rem;
+    line-height: 26px;
+}
+
+.money {
+    width: 38%;
+    color: #ff5d59;
+    font-weight: bold;
+    text-align: center;
+}
+
+.money p:nth-of-type(1) {
+    font-size: .17rem;
+    line-height: 25px;
+}
+
+.money p:nth-of-type(2) {
+    font-size: .1rem;
+}
+
+.show {
+    width: 26%;
+    text-align: center;
+    align-self: center;
+}
+
+.btn {
+    background-color: #ff5d59;
+    border-radius: 5px;
+    padding: .04rem 0;
+    color: #fff;
+    width: 85%;
+    display: inline-block;
+}
+

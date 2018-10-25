@@ -1,0 +1,76 @@
+@import "../../../config";
+.header-wrap{
+    //position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 10;
+    background-color: @sectionColor;
+}
+.head_content {
+    padding: 0 20px;
+    height: .5rem;
+    line-height: .5rem;
+    font-size: .17rem;
+    overflow: hidden;
+}
+
+.left {
+    float: left;
+}
+.right{
+    float: right;
+    font-size: .14rem;
+}
+.product-name{
+    font-weight: 400;
+    text-indent: .15rem;
+}
+.float-money{
+    padding-left: .05rem;
+    color: #13cd99;
+}
+.finance-wrap{
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    display: -webkit-flex;
+    padding: .12rem 0;
+    background: -webkit-gradient(linear,left top,left bottom,from(#ecd493),to(#dcc075));
+    background: -o-linear-gradient(top,#ecd493,#dcc075);
+    background: linear-gradient(180deg,#ecd493,#dcc075);
+    margin: .06rem .1rem;
+    border-radius: .04rem;
+    -webkit-box-shadow: 0 2px 5px #565656;
+    box-shadow: 0 2px 5px #565656;
+}
+.finance-list{
+    margin-left: 0 !important;
+    -webkit-box-flex: 1;
+    -ms-flex: 1;
+    flex: 1;
+    -webkit-flex: 1;
+    text-align: center;
+    position: relative;
+}
+.finance-txt{
+    font-size: .14rem;
+    color: #fff;
+    line-height: 20px;
+}
+.fianace-num{
+    font-size: .14rem;
+    color: #fff;
+    line-height: 20px;
+}
+
+.icon-back {
+    background: url(../images/icon-arrow-l.png) center no-repeat;
+    background-size: .2rem;
+    display: inline-block;
+    width: .2rem;
+    height: .2rem;
+    vertical-align: middle;
+    position: absolute;
+    top: .16rem;
+    left: .1rem;
+}

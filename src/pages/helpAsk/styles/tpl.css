@@ -1,0 +1,22 @@
+.mod_help_ask{
+    padding: .2rem .15rem 0;
+}
+.sel{
+    display: block;
+    width: 100%;
+    padding: 0 .1rem;
+    line-height: .4rem;
+    height: .4rem;
+    border: .01rem solid #ECECEC;
+    border-radius: .05rem;
+    background: #FFF;
+}
+.text{
+    display: block;
+    width: 100%;
+    padding: .1rem;
+    height: 1.5rem;
+    border: .01rem solid #ECECEC;
+    border-radius: .05rem;
+    margin: .2rem 0 .1rem;
+}
