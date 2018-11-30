@@ -53,6 +53,12 @@
 .action{
     float: right;
     line-height: 48px;
+    span{
+        display: inline-block;
+        line-height: 24px;
+        width: 1rem;
+        text-align: center;
+    }
 }
 .up-num{
     color: @up2;
@@ -64,8 +70,7 @@
     border-radius: 20px;
     border:1px solid #efb231;
     color: #efb231;
-    padding: .03rem .15rem;
-    margin-left: .1rem;
+    padding: .03rem .1rem;
 }
 
 .price{
@@ -75,23 +80,23 @@
     position: relative;
     color: @fontColor;
     margin-left: 0 !important;
-}
-.price div:not(:last-of-type):after{
-    content: '';
-    position: absolute;
-    right: 0;
-    height: 200%;
-    width: 1px;
-    top: -50%;
-    -webkit-transform: scale(0.5);
-    transform: scale(0.5);
-    background-color: @fontColor;
-}
-.price-item p{
-    text-align: center;
-}
-.price-item p:nth-of-type(2){
-    color: #b4b4b4;
-    line-height: .23rem;
-    font-size: .12rem;
+    &:not(:last-of-type):after {
+        content: '';
+        position: absolute;
+        right: 0;
+        height: 200%;
+        width: 1px;
+        top: -50%;
+        -webkit-transform: scale(0.5);
+        transform: scale(0.5);
+        background-color: @fontColor;
+    }
+    p{
+        text-align: center;
+        &:nth-of-type(2),&:nth-of-type(4){
+            color: #b4b4b4;
+            line-height: .23rem;
+            font-size: .12rem;
+        }
+    }
 }

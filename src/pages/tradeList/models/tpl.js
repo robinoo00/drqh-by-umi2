@@ -75,10 +75,10 @@ export default {
                     text:'手数',placeholder:'请输入手数',name:'qty'
                 },
                 {
-                    text:'止损点',placeholder:'请输入止损点',name:'slprice'
+                    text:'止损价',placeholder:'请输入止损价',name:'slprice'
                 },
                 {
-                    text:'止盈点',placeholder:'请输入止盈点',name:'tpprice'
+                    text:'止盈价',placeholder:'请输入止盈价',name:'tpprice'
                 },
             ],
             data:{},

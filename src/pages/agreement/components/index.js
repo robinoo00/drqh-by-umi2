@@ -12,7 +12,7 @@ class Agreement extends Component{
     state = {
         list:[
             {label:'客户须知',value:'客户须知',src:ag1},
-            {label:'担保合作协议',value:'担保合作协议',src:ag2},
+            // {label:'担保合作协议',value:'担保合作协议',src:ag2},
             {label:'风险提示书',value:'风险提示书',src:ag3},
             {label:'投资顾问书',value:'投资顾问书',src:ag4},
             {label:'客户确认书',value:'客户确认书',src:ag5},

@@ -28,7 +28,7 @@ export default function request(url, options) {
     const cid  = localStorage.getItem(config.CID);
     const account  = localStorage.getItem(config.ACCOUNT);
     const api = url.match(/api\/(\S*)?/)[1];
-    if(!key && api !='login' && api != 'register'){
+    if(!key && api !='login' && api != 'register' && api !='regcode'){
         router.push('login');
         return {data:''};
     }

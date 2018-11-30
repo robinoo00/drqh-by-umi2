@@ -56,10 +56,10 @@ const mapDispatchToProps = (dispatch,props) => ({
         props.form.validateFields({force: true}, (error) => {
             if (!error) {
                 let value = props.form.getFieldsValue();
-                dispatch({
-                    type:'register/validateByServer',
-                    value:value
-                })
+                // dispatch({
+                //     type:'register/validateByServer',
+                //     value:value
+                // })
                 dispatch({
                     type:'register/validate'
                 })

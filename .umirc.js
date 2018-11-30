@@ -2,6 +2,7 @@ export default {
     base: './',
     publicPath: './',
     history: 'hash',
+    hash:true,
     browserslist: [
         "> 1%",
         "last 2 versions",

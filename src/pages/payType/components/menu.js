@@ -34,15 +34,15 @@ class Example extends React.Component{
                         <Brief style={{fontSize:'.1rem'}}>手机支付，免手续费</Brief>
                     </Item>
                     <WhiteSpace size={"xs"} style={{backgroundColor:'#20212b'}}/>
-                    <Item
-                        onClick={wxPay}
-                        multipleLine
-                        arrow={"horizontal"}
-                        thumb={<img src={icon2} style={{width:'.71rem',height:'.27rem'}}/>}
-                    >
-                        <div style={{fontSize:'.16rem',color:'#fff'}}>微信支付</div>
-                        <Brief style={{fontSize:'.1rem'}}>手机支付，免手续费</Brief>
-                    </Item>
+                    {/*<Item*/}
+                        {/*onClick={wxPay}*/}
+                        {/*multipleLine*/}
+                        {/*arrow={"horizontal"}*/}
+                        {/*thumb={<img src={icon2} style={{width:'.71rem',height:'.27rem'}}/>}*/}
+                    {/*>*/}
+                        {/*<div style={{fontSize:'.16rem',color:'#fff'}}>微信支付</div>*/}
+                        {/*<Brief style={{fontSize:'.1rem'}}>手机支付，免手续费</Brief>*/}
+                    {/*</Item>*/}
                 </List>
             </div>
         )
@@ -56,7 +56,7 @@ const mapDispatchToProps = (dispatch,props) => ({
     aliPay: () => {
         Modal.alert('',
             <div>
-                <img style={{width: '100%'}} src={'http://106.14.7.216:1018/pic/alicode.jpg?time=' + new Date().valueOf()}/>
+                <img style={{width: '100%'}} src={'http://47.101.154.35:1018/pic/alicode.jpg?time=' + new Date().valueOf()}/>
             </div>
             , [
                 {text: '取消', onPress: null},

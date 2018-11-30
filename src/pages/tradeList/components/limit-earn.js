@@ -22,23 +22,23 @@ class LimitEarn extends React.Component{
                     止损止盈({data.合约})
                     <span style={{float:'right'}} onClick={() => {
                         router.push({pathname:'limits',query:{code:data.合约}})
-                    }}>记录</span>
+                    }}>更多</span>
                 </div>} className="popup-list">
                     {inputs.map((i, index) => (
-                            <InputItem
-                                {...form.getFieldProps(i.name,{
-                                    // rules: [{
-                                    //     required: true, message: i.placeholder,
-                                    // }],
-                                })}
-                                key={index}
-                                clear
-                                placeholder={i.placeholder}
-                            >{i.text}</InputItem>
+                        <InputItem
+                            {...form.getFieldProps(i.name,{
+                                // rules: [{
+                                //     required: true, message: i.placeholder,
+                                // }],
+                            })}
+                            key={index}
+                            clear
+                            placeholder={i.placeholder}
+                        >{i.text}</InputItem>
                     ))}
                     <List.Item>
                         <Button inline style={{width:'47%',height:'40px',lineHeight:'40px'}} onClick={hide}>取消</Button>
-                        <Button inline type="primary"style={{width:'47%',float:'right',height:'40px',lineHeight:'40px'}} onClick={submit}>设置</Button>
+                        <Button inline type="primary"style={{width:'47%',float:'right',height:'40px',lineHeight:'40px'}} onClick={submit}>确定</Button>
                     </List.Item>
                 </List>
             </Modal>

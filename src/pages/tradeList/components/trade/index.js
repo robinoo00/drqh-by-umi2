@@ -263,7 +263,7 @@ export default class extends Component {
                         <Item className={styles.add} onClick={this._chooseType('add')}></Item>
                     </Flex>
                 </Flex>
-                <Item className={styles.title}>最新</Item>
+                <Item className={styles.title}>买价</Item>
                 <Flex className={styles.float}>
                     <Item>
                         {this.state.data.买价 || '--'}

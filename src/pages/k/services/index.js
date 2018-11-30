@@ -14,7 +14,7 @@ function checkStatus(response) {
     throw error;
 }
 export async function getKData(values){
-    const url = `http://106.14.7.216:1010/api/api/getk?contract=${values.contract}&type=${values.type}&time=${values.time}`
+    const url = `http://47.101.154.35:1010/api/api/getk?contract=${values.contract}&type=${values.type}&time=${values.time}`
     return fetch(url)
         .then(checkStatus)
         .then(parseJSON)

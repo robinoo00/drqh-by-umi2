@@ -1,6 +1,6 @@
 export default {
-    AliPayUrl:'https://qr.alipay.com/fkx03484rq194wfatjlp59b',
-    server:'http://106.14.7.216:1007/api/',
+    AliPayUrl:'https://qr.alipay.com/fkx03968ggaqsbcqzyttme5',
+    server:'http://47.101.154.35:1007/api/',
     UN_SHOW_LOADING_URLS:['getinfo','gettpsllist','holding','order','holdingcoms','login','register','chujin'],//单独设置的加载回调接口（其它的都会使用通用加载动画）
     KEY:'key',
     CID:'cid',

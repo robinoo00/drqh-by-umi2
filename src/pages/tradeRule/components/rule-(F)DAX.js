@@ -67,7 +67,7 @@ class Example extends React.Component {
                         {/*</tr>*/}
                         <tr>
                             <td>结算约定汇率</td>
-                            <td>1:8</td>
+                            <td>1:8.5</td>
                         </tr>
                         <tr>
                             <td>最低授信交易保证金</td>

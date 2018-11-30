@@ -143,7 +143,7 @@ export default {
             for (let key in tp_list) {
                 let item = tp_list[key];
                 console.log(item.value)
-                formData.append(item.name,item.value);
+                formData.append(item.name,item.value, "file_" + Date.parse(new Date()) + ".jpg");
             }
             const {data} = yield call(RegisterServices.submit, formData);
             Toast.hide();
